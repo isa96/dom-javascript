@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute Selector</title>
+</head>
+<body>
+<div class="aaa">Aaa</div>
+<div class="aaabbb">Bbb</div>
+<div class="aaaccc">Ccc</div>
+
+<script>
+
+    const list = document.querySelectorAll("div[class^=aaa]");
+    console.info(list);
+
+</script>
+
+</body>
+</html>
